@@ -1,3 +1,13 @@
+// REFACTOR: Use Classes Noobs
+class Piece{
+    constructor(x, y, color){
+        this.x = x;
+        this.y = y;
+        this.color = color;
+    }
+    
+}
+
 // create 8 blackPawn variables for create element img
 let blackPawn1 = document.createElement("img");
 let blackPawn2 = document.createElement("img");
